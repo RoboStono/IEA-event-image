@@ -139,6 +139,9 @@ const Home = () => {
         width: 100%;
         color: #000;
       }
+      canvas {
+        max-width: 100vw;
+    }
       .title {
         margin: 0;
         width: 100%;
