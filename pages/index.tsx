@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import { saveAs } from 'file-saver'
-import getSharingImage from '@jlengstorf/get-share-image'
+import getShareImage from '@jlengstorf/get-share-image'
 import { ThemeProvider, CSSReset, Heading, Button, Input, FormControl, FormLabel, FormErrorMessage, FormHelperText, Box, Text } from "@chakra-ui/core";
 import { customTheme } from '../utils/theme';
 
@@ -43,7 +43,7 @@ const Home = () => {
     e.preventDefault()
     try {
       // get image
-      const imageURL = getSharingImage({
+      const imageURL = getShareImage({
         title,
         tagline,
         cloudName: 'deaib8dmw',
@@ -59,7 +59,6 @@ const Home = () => {
         textAreaWidth: 1600,
         textLeftOffset: 80,
         textColor: '000000',
-        taglineColor: '949494',
         titleFontSize: 85,
         taglineFontSize: 95,
       });
