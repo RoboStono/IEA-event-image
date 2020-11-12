@@ -51,7 +51,7 @@ const Home = () => {
         titleFont: 'iea:Graphik-Semibold.otf',
         taglineFont: 'iea:Graphik-Semibold.otf',
         titleExtraConfig: '',
-        taglineExtraConfig: '_line_spacing_20',
+        taglineExtraConfig: '_line_spacing_15',
         imageWidth: 1920,
         imageHeight: 1080,
         titleBottomOffset: 900,
