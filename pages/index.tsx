@@ -54,11 +54,10 @@ const Home = () => {
         taglineExtraConfig: 'co_green',
         imageWidth: 1920,
         imageHeight: 1080,
-        titleBottomOffset: 825,
+        titleTopOffset: 120,
         taglineTopOffset: 80,
         textAreaWidth: 1600,
         textLeftOffset: 80,
-        textColor: '000000',
         titleFontSize: 85,
         taglineFontSize: 95,
       });
