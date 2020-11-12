@@ -48,8 +48,8 @@ const Home = () => {
         tagline,
         cloudName: 'deaib8dmw',
         imagePublicID: 'iea-template',
-        titleFont: 'Graphik',
-        taglineFont: 'Graphik',
+        titleFont: 'Lato',
+        taglineFont: 'Lato',
         titleExtraConfig: '_bold',
         imageWidth: 640,
         imageHeight: 335,
@@ -104,12 +104,12 @@ const Home = () => {
                 <FormControl isRequired marginRight={3}>
                   <FormLabel htmlFor="title">Title:</FormLabel>
                   <Input type="text" placeholder="Finding Joy in Automated Tests" value={title} onChange={(e) => setTitle(e.target.value)} />
-                  <FormHelperText id="title-helper-text">The title of the blog post.</FormHelperText>
+                  <FormHelperText id="title-helper-text">The title of the event.</FormHelperText>
                 </FormControl>
                 <FormControl isRequired marginLeft={3}>
                   <FormLabel htmlFor="tagline">Tagline:</FormLabel>
                   <Input type="text" placeholder="Add joy to your dev process with automated e2e tests." value={tagline} onChange={(e) => setTagline(e.target.value)} />
-                  <FormHelperText id="tagline-helper-text">A short tagline describing the blog post.</FormHelperText>
+                  <FormHelperText id="tagline-helper-text">The date of your event (Months are abbreviated into first 3 letters).</FormHelperText>
                 </FormControl>
               </Box>
               <Box display="flex" justifyContent="center" marginTop={5}>
