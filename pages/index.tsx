@@ -103,12 +103,12 @@ const Home = () => {
               <Box display="flex" flexDirection="row" marginTop={2}>
                 <FormControl isRequired marginRight={3}>
                   <FormLabel htmlFor="title">Title:</FormLabel>
-                  <Input type="text" placeholder="Finding Joy in Automated Tests" value={title} onChange={(e) => setTitle(e.target.value)} />
+                  <Input type="text" placeholder="Event title" value={title} onChange={(e) => setTitle(e.target.value)} />
                   <FormHelperText id="title-helper-text">The title of the event.</FormHelperText>
                 </FormControl>
                 <FormControl isRequired marginLeft={3}>
                   <FormLabel htmlFor="tagline">Tagline:</FormLabel>
-                  <Input type="text" placeholder="Add joy to your dev process with automated e2e tests." value={tagline} onChange={(e) => setTagline(e.target.value)} />
+                  <Input type="text" placeholder="1 jan 2020." value={tagline} onChange={(e) => setTagline(e.target.value)} />
                   <FormHelperText id="tagline-helper-text">Date (eg: 5 jan 2020).</FormHelperText>
                 </FormControl>
               </Box>
