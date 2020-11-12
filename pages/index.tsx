@@ -51,7 +51,7 @@ const Home = () => {
         titleFont: 'iea:Graphik-Semibold.otf',
         taglineFont: 'iea:Graphik-Semibold.otf',
         titleExtraConfig: '',
-        taglineExtraConfig: '_line_spacing_15',
+        taglineExtraConfig: '_line_spacing_20',
         imageWidth: 1920,
         imageHeight: 1080,
         titleBottomOffset: 900,
@@ -122,7 +122,7 @@ const Home = () => {
             <Box marginLeft={2} marginTop={10} position="relative">
               {
                 success &&
-                <Button position="absolute" zIndex={2} top={0} right={0} onClick={saveDownload} marginLeft={2} maxWidth={100}>Download</Button>
+                <Button position="absolute" zIndex={2} onClick={saveDownload} marginLeft={2} maxWidth={120}>Download</Button>
               }
               <img style={{ display: 'none' }} ref={imgRef} src={generatedImage} alt="generated social image." crossOrigin="anonymous" />
               <canvas ref={canvasRef} width="1920" height="1080" />
