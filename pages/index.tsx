@@ -50,7 +50,6 @@ const Home = () => {
         imagePublicID: 'iea/iea-template',
         titleFont: 'Arial',
         taglineFont: 'Arial',
-        textColor: '000000',
         titleExtraConfig: '_bold',
         taglineExtraConfig: '_bold',
         imageWidth: 1920,
@@ -59,6 +58,7 @@ const Home = () => {
         taglineTopOffset: 225,
         textAreaWidth: 1600,
         textLeftOffset: 80,
+        textColor: '000000',
         titleFontSize: 85,
         taglineFontSize: 95,
       });
