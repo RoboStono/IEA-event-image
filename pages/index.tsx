@@ -28,7 +28,7 @@ const Home = () => {
     setTimeout(() => {
       setIsLoading(false)
       setSuccess(true)
-    }, 2000)
+    }, 1000)
   }
 
   async function handleFormSubmit(e) {
