@@ -56,12 +56,12 @@ const Home = () => {
         imageHeight: 1080,
         titleBottomOffset: 900,
         taglineTopOffset: 235,
-        textAreaWidth: 1700,
+        textAreaWidth: 1600,
         textLeftOffset: 98,
         textColor: '000000',
         titleColor: '949494',
-        titleFontSize: 130,
-        taglineFontSize: 125,
+        titleFontSize: 125,
+        taglineFontSize: 12,
       });
 
       setGeneratedImage(imageURL)
