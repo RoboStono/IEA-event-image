@@ -53,13 +53,13 @@ const Home = () => {
         titleExtraConfig: '_bold',
         imageWidth: 1920,
         imageHeight: 1080,
-        titleBottomOffset: 135,
-        taglineTopOffset: 205,
+        taglineTopOffset: 135,
+        titleTopOffset: 205,
         textAreaWidth: 389,
         textLeftOffset: 216,
         textColor: '000000',
-        titleFontSize: 32,
-        taglineFontSize: 24,
+        titleFontSize: 70,
+        taglineFontSize: 40,
       });
 
       setGeneratedImage(imageURL)
