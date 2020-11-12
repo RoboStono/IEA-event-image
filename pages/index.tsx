@@ -50,6 +50,11 @@ const Home = () => {
         imagePublicID: 'iea/iea-template',
         titleFont: 'Arial',
         taglineFont: 'Arial',
+<<<<<<< HEAD
+=======
+        titleColor: '663399',
+        textColor: '000000',
+>>>>>>> parent of 71e87ed... Removed titleColor
         titleExtraConfig: '_bold',
         taglineExtraConfig: '_bold',
         imageWidth: 1920,
