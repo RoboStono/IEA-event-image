@@ -123,7 +123,7 @@ const Home = () => {
                 <Button position="absolute" zIndex={2} top={0} right={0} onClick={saveDownload} marginLeft={2} maxWidth={100}>Download</Button>
               }
               <img style={{ display: 'none' }} ref={imgRef} src={generatedImage} alt="generated social image." crossOrigin="anonymous" />
-              <canvas ref={canvasRef} width="640" height="335" />
+              <canvas ref={canvasRef} width="1920" height="1080" />
             </Box>
           </Box>
         </Box>
