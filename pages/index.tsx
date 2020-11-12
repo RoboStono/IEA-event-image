@@ -109,7 +109,7 @@ const Home = () => {
                 <FormControl isRequired marginLeft={3}>
                   <FormLabel htmlFor="tagline">Tagline:</FormLabel>
                   <Input type="text" placeholder="Add joy to your dev process with automated e2e tests." value={tagline} onChange={(e) => setTagline(e.target.value)} />
-                  <FormHelperText id="tagline-helper-text">The date of your event (Months are abbreviated into first 3 letters).</FormHelperText>
+                  <FormHelperText id="tagline-helper-text">Date (eg: 5 jan 2020).</FormHelperText>
                 </FormControl>
               </Box>
               <Box display="flex" justifyContent="center" marginTop={5}>
