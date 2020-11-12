@@ -28,7 +28,7 @@ const Home = () => {
     setTimeout(() => {
       setIsLoading(false)
       setSuccess(true)
-    }, 2000)
+    }, 1000)
   }
 
   async function handleFormSubmit(e) {
@@ -55,10 +55,9 @@ const Home = () => {
         imageHeight: 1080,
         titleBottomOffset: 335,
         taglineTopOffset: 405,
-        textAreaWidth: 700,
+        textAreaWidth: 760,
         textLeftOffset: 216,
-        textColor: 'ffffff',
-        titleFontSize: 62,
+        textColor: '000000'
         taglineFontSize: 74,
       });
 
