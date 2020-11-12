@@ -57,10 +57,9 @@ const Home = () => {
         taglineTopOffset: 80,
         textAreaWidth: 1600,
         textLeftOffset: 80,
+        textColor: '000000',
         titleFontSize: 85,
         taglineFontSize: 85,
-        taglineColor: '949494',
-        titleColor: '000000',
       });
 
       setGeneratedImage(imageURL)
