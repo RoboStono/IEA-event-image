@@ -51,7 +51,7 @@ const Home = () => {
         titleFont: 'Arial',
         taglineFont: 'Arial',
         titleExtraConfig: '_bold',
-        taglineExtraConfig: '',
+        taglineExtraConfig: 'bold',
         imageWidth: 1920,
         imageHeight: 1080,
         titleBottomOffset: 905,
