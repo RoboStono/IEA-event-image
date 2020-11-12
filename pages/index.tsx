@@ -109,7 +109,7 @@ const Home = () => {
                 <FormControl isRequired marginLeft={3}>
                   <FormLabel htmlFor="tagline">Tagline:</FormLabel>
                   <Input type="text" placeholder="Attempting to fix" value={tagline} onChange={(e) => setTagline(e.target.value)} />
-                  <FormHelperText id="tagline-helper-text">Date (eg: 5 jan 2020).</FormHelperText>
+                  <FormHelperText id="tagline-helper-text">Date eg: 5 jan 2020.</FormHelperText>
                 </FormControl>
               </Box>
               <Box display="flex" justifyContent="center" marginTop={5}>
@@ -135,7 +135,7 @@ const Home = () => {
       }
       .hero {
         width: 100%;
-        color: #fff;
+        color: #000;
       }
       .title {
         margin: 0;
