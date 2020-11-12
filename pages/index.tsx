@@ -122,7 +122,7 @@ const Home = () => {
             <Box marginLeft={2} marginTop={10} position="relative">
               {
                 success &&
-                <Button position="absolute" zIndex={2} onClick={saveDownload} marginLeft={2} maxWidth={120}>Download</Button>
+                <Button position="absolute" zIndex={2} right={0} onClick={saveDownload} marginLeft={2} maxWidth={100}>Download</Button>
               }
               <img style={{ display: 'none' }} ref={imgRef} src={generatedImage} alt="generated social image." crossOrigin="anonymous" />
               <canvas ref={canvasRef} width="1920" height="1080" />
@@ -140,7 +140,7 @@ const Home = () => {
         color: #000;
       }
       canvas {
-        max-width: 100vw;
+        max-width: 80vw;
     }
       .title {
         margin: 0;
