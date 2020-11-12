@@ -103,14 +103,14 @@ const Home = () => {
             <FormControl maxWidth={700}>
               <Box display="flex" flexDirection="row" marginTop={2}>
                 <FormControl isRequired marginRight={3}>
-                  <FormLabel htmlFor="title">Title:</FormLabel>
-                  <Input type="text" placeholder="Event title" value={title} onChange={(e) => setTitle(e.target.value)} />
-                  <FormHelperText id="title-helper-text">The title of the event.</FormHelperText>
+                  <FormLabel htmlFor="title">Date:</FormLabel>
+                  <Input type="text" placeholder="Enter date here" value={title} onChange={(e) => setTitle(e.target.value)} />
+                  <FormHelperText id="title-helper-text">The date of the event.</FormHelperText>
                 </FormControl>
                 <FormControl isRequired marginLeft={3}>
-                  <FormLabel htmlFor="tagline">Tagline:</FormLabel>
-                  <Input type="text" placeholder="Attempting to fix" value={tagline} onChange={(e) => setTagline(e.target.value)} />
-                  <FormHelperText id="tagline-helper-text">Date eg: 5 jan 2020.</FormHelperText>
+                  <FormLabel htmlFor="tagline">Tite:</FormLabel>
+                  <Input type="text" placeholder="Enter title here" value={tagline} onChange={(e) => setTagline(e.target.value)} />
+                  <FormHelperText id="tagline-helper-text">The title of the event</FormHelperText>
                 </FormControl>
               </Box>
               <Box display="flex" justifyContent="center" marginTop={5}>
