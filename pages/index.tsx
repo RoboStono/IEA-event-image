@@ -54,14 +54,14 @@ const Home = () => {
         taglineExtraConfig: '_line_spacing_15',
         imageWidth: 1920,
         imageHeight: 1080,
-        titleBottomOffset: 905,
-        taglineTopOffset: 230,
+        titleBottomOffset: 910,
+        taglineTopOffset: 225,
         textAreaWidth: 1500,
-        textLeftOffset: 85,
+        textLeftOffset: 95,
         textColor: '000000',
         titleColor: '949494',
-        titleFontSize: 115,
-        taglineFontSize: 110,
+        titleFontSize: 130,
+        taglineFontSize: 125,
       });
 
       setGeneratedImage(imageURL)
