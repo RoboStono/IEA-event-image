@@ -53,7 +53,7 @@ const Home = () => {
         titleExtraConfig: '_bold',
         imageWidth: 1920,
         imageHeight: 1080,
-        titleBottomOffset: 135,
+        titleBottomOffset: 800,
         taglineTopOffset: 205,
         textAreaWidth: 1400,
         textLeftOffset: 80,
