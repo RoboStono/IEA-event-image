@@ -56,7 +56,7 @@ const Home = () => {
         imageHeight: 1080,
         titleBottomOffset: 900,
         taglineTopOffset: 235,
-        textAreaWidth: 1600,
+        textAreaWidth: 1580,
         textLeftOffset: 98,
         textColor: '000000',
         titleColor: '949494',
