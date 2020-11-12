@@ -51,7 +51,7 @@ const Home = () => {
         titleFont: 'iea:Graphik-Semibold.otf',
         taglineFont: 'iea:Graphik-Semibold.otf',
         titleExtraConfig: '',
-        taglineExtraConfig: '',
+        taglineExtraConfig: '_line_spacing_+10',
         imageWidth: 1920,
         imageHeight: 1080,
         titleBottomOffset: 905,
@@ -60,8 +60,8 @@ const Home = () => {
         textLeftOffset: 80,
         textColor: '000000',
         titleColor: '949494',
-        titleFontSize: 105,
-        taglineFontSize: 100,
+        titleFontSize: 115,
+        taglineFontSize: 110,
       });
 
       setGeneratedImage(imageURL)
