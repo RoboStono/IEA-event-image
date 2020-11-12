@@ -59,6 +59,7 @@ const Home = () => {
         textAreaWidth: 1600,
         textLeftOffset: 80,
         textColor: '000000',
+        titleColor: '666666',
         titleFontSize: 85,
         taglineFontSize: 95,
       });
