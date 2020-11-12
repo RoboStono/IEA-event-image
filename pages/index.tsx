@@ -49,7 +49,7 @@ const Home = () => {
         cloudName: 'deaib8dmw',
         imagePublicID: 'iea/iea-template',
         titleFont: 'Arial',
-        taglineFont: 'Arial',
+        taglineFont: 'iea:Graphik-Semibold.otf',
         titleExtraConfig: '_bold',
         taglineExtraConfig: 'bold',
         imageWidth: 1920,
