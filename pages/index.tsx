@@ -46,8 +46,8 @@ const Home = () => {
       const imageURL = getSharingImage({
         title,
         tagline,
-        cloudName: 'deaib8dmw',
-        imagePublicID: 'iea/iea-template',
+        cloudName: 'jsjoeio',
+        imagePublicID: 'eb-template',
         titleFont: 'Lato',
         taglineFont: 'Lato',
         titleExtraConfig: '_bold',
