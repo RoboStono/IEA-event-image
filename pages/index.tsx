@@ -28,7 +28,7 @@ const Home = () => {
     setTimeout(() => {
       setIsLoading(false)
       setSuccess(true)
-    }, 1000)
+    }, 2000)
   }
 
   async function handleFormSubmit(e) {
@@ -55,7 +55,7 @@ const Home = () => {
         imageHeight: 1080,
         titleBottomOffset: 135,
         taglineTopOffset: 205,
-        textAreaWidth: 389,
+        textAreaWidth: 700,
         textLeftOffset: 216,
         textColor: 'ffffff',
         titleFontSize: 32,
@@ -108,7 +108,7 @@ const Home = () => {
                 </FormControl>
                 <FormControl isRequired marginLeft={3}>
                   <FormLabel htmlFor="tagline">Tagline:</FormLabel>
-                  <Input type="text" placeholder="1 jan 2020." value={tagline} onChange={(e) => setTagline(e.target.value)} />
+                  <Input type="text" placeholder="Attempting to fix" value={tagline} onChange={(e) => setTagline(e.target.value)} />
                   <FormHelperText id="tagline-helper-text">Date (eg: 5 jan 2020).</FormHelperText>
                 </FormControl>
               </Box>
